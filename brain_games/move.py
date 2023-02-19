@@ -1,8 +1,7 @@
 import prompt
 
 
-
-def ask_questions (config):
+def ask_questions_and_get_result(config):
     win = False
 
     for qr in config:
@@ -19,7 +18,7 @@ def ask_questions (config):
         else:
             print('\'' + str(answer) + '\'' + ' is wrong answer ;(. Correct answer was\'' + str(result) + '\' .')
             win = False
-            break 
+            break
 
     return win
 
@@ -32,17 +31,9 @@ def play(task, config):
 
     print(task)
 
-    is_player_win = ask_questions(config)
-         
-    if is_player_win == True:
+    is_player_win = ask_questions_and_get_result(config)
+
+    if is_player_win is True:
         print('Congratulations, ' + name + '!')
     else:
         print('Let\'s try again, ' + name + '!')
-
-
-      
-
-
-
-
-    
