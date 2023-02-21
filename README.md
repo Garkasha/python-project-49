@@ -4,6 +4,20 @@
 ### Maintainability Bages
 <a href="https://codeclimate.com/github/Garkasha/python-project-49/maintainability"><img src="https://api.codeclimate.com/v1/badges/c8dda4d49217e4d828e3/maintainability" /></a>
 
+Игры:
+Калькулятор, четное/нечетное, НОД, прогрессия, простое число.
+
+Установка команды:
+ make build
+ make publish
+ make install
+
+Звпуск игр:
+brain-calc
+brain-even
+brain_gcd
+brain_progression
+brain_prime
 
 ### asciinema Brain Even
 https://asciinema.org/a/y8A6yfBqIsEbWjYevD5GiVkQc
