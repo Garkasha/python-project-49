@@ -14,3 +14,9 @@ https://asciinema.org/a/Y7RvHbFyBEkhluecNmK7sZhu1
 ### asciinema Brain GCD
 https://asciinema.org/a/DCV8TTPv03y8JqnrwMYJoUmRu
 
+### asciinema Brain Progression
+https://asciinema.org/a/CLVTqyHVVh38GKu2fohsM2KBy
+
+### asciinema Brain Prime
+https://asciinema.org/a/T7N6VVNSKPtUNGDNgI639Zknl
+
