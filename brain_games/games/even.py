@@ -1,7 +1,7 @@
 from random import randint
 import brain_games.move
 
-task = 'Answer \"yes\" if the nomber is even, otherwise answer \"no\".'
+task = 'Answer "yes" if the nomber is even, otherwise answer "no".'
 
 config = []
 
