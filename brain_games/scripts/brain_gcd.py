@@ -1,4 +1,3 @@
 #!/usr/bin/env python3
-import brain_games.games.gcd
+from brain_games.games.gcd import main
 
-brain_games.games.gcd.main()
