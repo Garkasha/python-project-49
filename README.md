@@ -20,17 +20,17 @@ brain_progression
 brain_prime
 
 ### asciinema Brain Even
-https://asciinema.org/a/y8A6yfBqIsEbWjYevD5GiVkQc
+<a href="https://asciinema.org/a/y8A6yfBqIsEbWjYevD5GiVkQc" target="_blank"><img src="https://asciinema.org/a/y8A6yfBqIsEbWjYevD5GiVkQc.svg" /></a>
 
 ### asciinema Brain Calc
-https://asciinema.org/a/Y7RvHbFyBEkhluecNmK7sZhu1
+<a href="https://asciinema.org/a/Y7RvHbFyBEkhluecNmK7sZhu1" target="_blank"><img src="https://asciinema.org/a/Y7RvHbFyBEkhluecNmK7sZhu1.svg" /></a>
 
 ### asciinema Brain GCD
-https://asciinema.org/a/DCV8TTPv03y8JqnrwMYJoUmRu
+<a href="https://asciinema.org/a/DCV8TTPv03y8JqnrwMYJoUmRu" target="_blank"><img src="https://asciinema.org/a/DCV8TTPv03y8JqnrwMYJoUmRu.svg" /></a>
 
 ### asciinema Brain Progression
-https://asciinema.org/a/CLVTqyHVVh38GKu2fohsM2KBy
+<a href="https://asciinema.org/a/CLVTqyHVVh38GKu2fohsM2KBy" target="_blank"><img src="https://asciinema.org/a/CLVTqyHVVh38GKu2fohsM2KBy.svg" /></a>
 
 ### asciinema Brain Prime
-https://asciinema.org/a/T7N6VVNSKPtUNGDNgI639Zknl
+<a href="https://asciinema.org/a/T7N6VVNSKPtUNGDNgI639Zknl" target="_blank"><img src="https://asciinema.org/a/T7N6VVNSKPtUNGDNgI639Zknl.svg" /></a>
 
