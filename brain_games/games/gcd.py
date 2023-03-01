@@ -1,6 +1,7 @@
 from random import randint
 from brain_games.move import ask_questions_and_get_result
 
+
 def task():
     print('Find the greatest common divisor of given numbers.')
 
@@ -21,5 +22,6 @@ def make_task():
     result = find_hcf(a, b)
 
     return question, result
+
 
 ask_questions_and_get_result(make_task, task)

@@ -1,8 +1,10 @@
 from random import randint
 from brain_games.move import ask_questions_and_get_result
 
+
 def task():
-    print('Answer "yes" if the nomber is prime, otherwise answer "no".')
+    print('Answer "yes" if the number is prime, otherwise answer "no".')
+
 
 def make_task():
     number = randint(2, 99)
@@ -18,7 +20,8 @@ def make_task():
         result = 'no'
 
     question = number
-    
+
     return question, result
+
 
 ask_questions_and_get_result(make_task, task)
