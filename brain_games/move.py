@@ -1,39 +1,33 @@
 import prompt
+## from brain_games.games.calc import calculation
 
 
-def ask_questions_and_get_result(config):
-    win = False
-
-    for qr in config:
-        question = qr[0]
-        result = qr[1]
-
-        print('Question: ' + question)
-        answer = prompt.string('Your answer: ')
-        is_right_answer = str(answer) == str(result)
-
-        if is_right_answer:
-            print('Correct!')
-            win = True
-        else:
-            print('\'' + str(answer) + '\'' + ' is wrong answer ;(. Correct answer was\'' + str(result) + '\' .')
-            win = False
-            break
-
-    return win
-
-
-def play(task, config):
+def ask_questions_and_get_result(make_task, task):
+    counter = 0
     print('Welcome to the Brain Games!')
-
     name = prompt.string('May I have your name? ')
     print('Hello, ' + name + '!')
+    task()
 
-    print(task)
+    while counter < 3:
+            question, result = make_task()
+            print('Question: ' + str(question))
+            answer = prompt.string('Your answer: ')
+            is_right_answer = str(answer) == str(result)
 
-    is_player_win = ask_questions_and_get_result(config)
+            if is_right_answer:
+                print('Correct!')
+                counter += 1
+            else:
+                print('\'' + str(answer) + '\'' + ' is wrong answer ;(. Correct answer was\'' + str(result) + '\' .')
+                print('Let\'s try again, ' + name + '!')
+                break
 
-    if is_player_win is True:
-        print('Congratulations, ' + name + '!')
-    else:
-        print('Let\'s try again, ' + name + '!')
+            if counter == 3:
+                print('Congratulations, ' + name + '!')
+
+
+
+
+
+

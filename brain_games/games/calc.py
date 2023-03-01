@@ -1,15 +1,12 @@
 import operator
 import random
 from random import randint
-import brain_games.move
+from brain_games.move import ask_questions_and_get_result
 
+def task():
+    print('What is the result of the expression?')
 
-task = 'What is the result of the expression?'
-
-config = []
-
-
-for q in range(0, 3):
+def make_task():
     a = randint(1, 99)
     b = randint(1, 99)
 
@@ -22,13 +19,11 @@ for q in range(0, 3):
 
     question = (str(a) + ' ' + c + ' ' + str(b))
     result = action[c](a, b)
-
-    config.append([question, result])  # [[q, r], [q, r], [q ,r]]
-
-
-def main():
-    brain_games.move.play(task, config)
+    return question, result
 
 
-if __name__ == '__main__':
-    main()
+
+ask_questions_and_get_result(make_task, task)
+
+
+

@@ -1,2 +1,8 @@
 #!/usr/bin/env python3
-from brain_games.games.gcd import main
+import brain_games.games.gcd
+
+def main():
+   
+    if __name__ == '__main__':
+         main()
+

@@ -1,11 +1,10 @@
 from random import randint
-import brain_games.move
+from brain_games.move import ask_questions_and_get_result
 
-task = 'What number is missing in the progression?'
+def task():
+    print('What number is missing in the progression?')
 
-config = []
-
-for q in range(0, 3):
+def make_task():
     progression = []
     start_progression = randint(0, 50)
     step_progression = randint(1, 9)
@@ -21,12 +20,6 @@ for q in range(0, 3):
     print_progression[index] = ".."
     question = " ".join(map(str, print_progression))
 
-    config.append([question, result])
+    return question, result
 
-
-def main():
-    brain_games.move.play(task, config)
-
-
-if __name__ == '__main__':
-    main()
+ask_questions_and_get_result(make_task, task)

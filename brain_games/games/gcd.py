@@ -1,7 +1,8 @@
 from random import randint
-import brain_games.move
+from brain_games.move import ask_questions_and_get_result
 
-task = 'Find the greatest common divisor of given numbers.'
+def task():
+    print('Find the greatest common divisor of given numbers.')
 
 
 def find_hcf(a, b):
@@ -13,19 +14,12 @@ def find_hcf(a, b):
     return (a + b)
 
 
-config = []
-for q in range(0, 3):
+def make_task():
     a = randint(1, 99)
     b = randint(1, 99)
     question = (str(a) + ' ' + str(b))
     result = find_hcf(a, b)
 
-    config.append([question, result])  # [[q, r], [q, r], [q ,r]]
+    return question, result
 
-
-def main():
-    brain_games.move.play(task, config)
-
-
-if __name__ == '__main__':
-    main()
+ask_questions_and_get_result(make_task, task)
