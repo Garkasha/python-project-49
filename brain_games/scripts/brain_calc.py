@@ -1,8 +1,11 @@
 #!/usr/bin/env python3
-import brain_games.games.calc
+from brain_games.games.calc import make_task
+from brain_games.move import ask_questions_and_get_result
 
 
 def main():
+    ask_questions_and_get_result(make_task)
 
-    if __name__ == '__main__':
-        main()
+
+if __name__ == '__main__':
+    main()
