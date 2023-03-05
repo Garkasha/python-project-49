@@ -2,3 +2,4 @@ venv/
 dist/
 __pycache__/
 games/__pycache__/
+scripts/__pycache__/
