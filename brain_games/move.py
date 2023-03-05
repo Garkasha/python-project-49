@@ -19,7 +19,9 @@ def ask_questions_and_get_result(make_task):
             print('Correct!')
             counter += 1
         else:
-            print('\'' + str(answer) + '\'' + ' is wrong answer ;(. Correct answer was\'' + str(result) + '\' .')
+            print('\'' + str(answer) + '\'' + ' is \
+wrong answer ;(. Correct answer was\'' + str(result) + '\' .')
+
             print('Let\'s try again, ' + name + '!')
             break
 
