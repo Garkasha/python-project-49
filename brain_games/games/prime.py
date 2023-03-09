@@ -1,8 +1,10 @@
 from random import randint
 
 
+DESCRIPTION = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+
+
 def make_task():
-    task = 'Answer "yes" if given number is prime. Otherwise answer "no".'
     number = randint(2, 99)
 
     def is_prime(number):
@@ -20,4 +22,4 @@ def make_task():
 
     question = number
 
-    return question, result, task
+    return question, result

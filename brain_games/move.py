@@ -1,16 +1,15 @@
 import prompt
 
 
-def ask_questions_and_get_result(make_task):
+def ask_questions_and_get_result(module):
     counter = 0
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
     print('Hello, ' + name + '!')
-    question, result, task = make_task()
-    print(task)
+    print(module.DESCRIPTION)
 
     while counter < 3:
-        question, result, task = make_task()
+        question, result = module.make_task()
         print('Question: ' + str(question))
         answer = prompt.string('Your answer: ')
         is_right_answer = str(answer) == str(result)

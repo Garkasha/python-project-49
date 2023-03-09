@@ -3,9 +3,11 @@ import random
 from random import randint
 
 
+DESCRIPTION = 'What is the result of the expression?'
+
+
 def make_task():
 
-    task = 'What is the result of the expression?'
     a = randint(1, 99)
     b = randint(1, 99)
 
@@ -19,4 +21,4 @@ def make_task():
     question = (str(a) + ' ' + c + ' ' + str(b))
     result = action[c](a, b)
 
-    return question, result, task
+    return question, result

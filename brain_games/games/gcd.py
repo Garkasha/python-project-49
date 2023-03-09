@@ -1,6 +1,9 @@
 from random import randint
 
 
+DESCRIPTION = 'Find the greatest common divisor of given numbers.'
+
+
 def find_hcf(a, b):
     while a != 0 and b != 0:
         if a > b:
@@ -11,10 +14,9 @@ def find_hcf(a, b):
 
 
 def make_task():
-    task = 'Find the greatest common divisor of given numbers.'
     a = randint(1, 99)
     b = randint(1, 99)
     question = (str(a) + ' ' + str(b))
     result = find_hcf(a, b)
 
-    return question, result, task
+    return question, result
