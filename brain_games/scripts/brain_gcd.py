@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 from brain_games.games import gcd
-from brain_games.move import ask_questions_and_get_result
+from brain_games.move import launch
 
 
 def main():
-    ask_questions_and_get_result(module=gcd)
+    launch(game=gcd)
 
 
 if __name__ == '__main__':

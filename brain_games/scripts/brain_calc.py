@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 from brain_games.games import calc
-from brain_games.move import ask_questions_and_get_result
+from brain_games.move import launch
 
 
 def main():
-    ask_questions_and_get_result(module=calc)
+    launch(game=calc)
 
 
 if __name__ == '__main__':
