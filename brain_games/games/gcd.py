@@ -16,7 +16,7 @@ def find_hcf(a, b):
 def make_task():
     a = randint(1, 99)
     b = randint(1, 99)
-    question = (str(a) + ' ' + str(b))
-    result = find_hcf(a, b)
+    question = f'{a} {b}'
+    result = str(find_hcf(a, b))
 
     return question, result

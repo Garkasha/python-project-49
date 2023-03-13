@@ -1,19 +1,22 @@
 import prompt
 
 
+ROUNDS = 3
+
+
 def launch(game):
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
     print('Hello, ' + name + '!')
     print(game.DESCRIPTION)
 
-    for i in range(3):
+    for i in range(ROUNDS):
         question, result = game.make_task()
-        print('Question: ' + str(question))
+        print(f"Question: {question}")
+        print(result)
         answer = prompt.string('Your answer: ')
-        is_right_answer = str(answer) == str(result)
 
-        if is_right_answer:
+        if answer == result:
             print('Correct!')
 
         else:
@@ -22,5 +25,5 @@ wrong answer ;(. Correct answer was\'' + str(result) + '\' .')
             print('Let\'s try again, ' + name + '!')
             break
 
-        if i == 2:
-            print('Congratulations, ' + name + '!')
+    else:
+        print('Congratulations, ' + name + '!')

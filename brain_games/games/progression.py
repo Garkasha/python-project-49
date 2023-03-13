@@ -16,7 +16,7 @@ def make_task():
 
     print_progression = progression
     index = randint(0, len(progression) - 1)
-    result = progression[index]
+    result = str(progression[index])
     print_progression[index] = ".."
     question = " ".join(map(str, print_progression))
 

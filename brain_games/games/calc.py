@@ -15,10 +15,10 @@ def make_task():
         '+': operator.add,
         '-': operator.sub,
         '*': operator.mul}
-    simbol = ['*', '-', '+']
-    c = random.choice(simbol)
 
-    question = (str(a) + ' ' + c + ' ' + str(b))
-    result = action[c](a, b)
+    c = random.choice(list(action.keys()))
+
+    question = f'{a} {c} {b}'
+    result = str(action[c](a, b))
 
     return question, result

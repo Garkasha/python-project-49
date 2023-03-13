@@ -4,15 +4,22 @@
 ### Maintainability Bages
 <a href="https://codeclimate.com/github/Garkasha/python-project-49/maintainability"><img src="https://api.codeclimate.com/v1/badges/c8dda4d49217e4d828e3/maintainability" /></a>
 
-Игры:
-Калькулятор, четное/нечетное, НОД, прогрессия, простое число.
+Welcome to Brain Games! Here you will find various games:
 
-Установка команды:
+Calculation
+Even
+GCD
+Prime
+Progression
+
+First, using installation commands for install the game. Then launch each game with the corresponding command.
+
+Install commands:
  make build
  make publish
  make install
 
-Звпуск игр:
+Games run:
 brain-calc
 brain-even
 brain_gcd
