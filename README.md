@@ -6,6 +6,8 @@
 
 <a href="https://codeclimate.com/github/Garkasha/python-project-49/maintainability"><img src="https://api.codeclimate.com/v1/badges/c8dda4d49217e4d828e3/maintainability" /></a>
 
+------------------------------------------------
+
 ### Welcome to Brain Games!   
 
 Here you will find various **games**:  
@@ -34,7 +36,8 @@ First, using installation commands for install the game. Then launch each game w
 > - brain_prime  
   
   
-  
+-----------------------------------------------
+
 ### asciinema Brain Even
 
 <a href="https://asciinema.org/a/y8A6yfBqIsEbWjYevD5GiVkQc" target="_blank"><img src="https://asciinema.org/a/y8A6yfBqIsEbWjYevD5GiVkQc.svg" /></a>
