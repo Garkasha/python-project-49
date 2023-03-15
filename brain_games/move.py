@@ -13,6 +13,7 @@ def launch(game):
     for _ in range(ROUNDS):
         question, result = game.make_task()
         print(f"Question: {question}")
+        print(result)
         answer = prompt.string('Your answer: ')
 
         if answer == result:
@@ -25,4 +26,4 @@ Correct answer was "{result}".')
             break
 
     else:
-        print(f'Congratulations, {name} !')
+        print(f'Congratulations, {name}!')
