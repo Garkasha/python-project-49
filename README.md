@@ -8,29 +8,29 @@
 
 ### Welcome to Brain Games!   
 
-Here you will find various games:  
+Here you will find various **games**:  
 
-Calculation  
-Even  
-GCD  
-Prime  
-Progression  
+> - Calculation  
+> - Even  
+> - GCD  
+> - Prime  
+> - Progression  
 
 First, using installation commands for install the game. Then launch each game with the corresponding command.
 
-**Install commands:**    
+> # Install commands:  
+>
+> - make build  
+> - make publish  
+> - make install  
 
-make build  
-make publish  
-make install  
-
-**Games run:**  
-
-brain-calc  
-brain-even  
-brain_gcd  
-brain_progression  
-brain_prime  
+> # Games run:    
+>
+> - brain-calc  
+> - brain-even  
+> - brain_gcd  
+> - brain_progression  
+> - brain_prime  
 
 
 
