@@ -17,23 +17,24 @@ Here you will find various **games**:
 > - Progression  
 
 First, using installation commands for install the game. Then launch each game with the corresponding command.
+  
+  
+#### Install commands:  
 
-> # Install commands:  
->
 > - make build  
 > - make publish  
 > - make install  
 
-> # Games run:    
->
+#### Games run:    
+
 > - brain-calc  
 > - brain-even  
 > - brain_gcd  
 > - brain_progression  
 > - brain_prime  
-
-
-
+  
+  
+  
 ### asciinema Brain Even
 
 <a href="https://asciinema.org/a/y8A6yfBqIsEbWjYevD5GiVkQc" target="_blank"><img src="https://asciinema.org/a/y8A6yfBqIsEbWjYevD5GiVkQc.svg" /></a>
