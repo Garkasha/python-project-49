@@ -10,20 +10,19 @@ def launch(game):
     print('Hello, ' + name + '!')
     print(game.DESCRIPTION)
 
-    for i in range(ROUNDS):
+    for _ in range(ROUNDS):
         question, result = game.make_task()
         print(f"Question: {question}")
-        print(result)
         answer = prompt.string('Your answer: ')
 
         if answer == result:
             print('Correct!')
 
         else:
-            print('\'' + str(answer) + '\'' + ' is \
-wrong answer ;(. Correct answer was\'' + str(result) + '\' .')
-            print('Let\'s try again, ' + name + '!')
+            print(f'Answer "{answer}" is wrong answer ;(. \
+Correct answer was "{result}".')
+            print(f'Let\'s try again, {name}!')
             break
 
     else:
-        print('Congratulations, ' + name + '!')
+        print(f'Congratulations, {name} !')

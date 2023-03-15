@@ -14,10 +14,9 @@ def make_task():
         next_number = progression[-1] + step_progression
         progression.append(next_number)
 
-    print_progression = progression
     index = randint(0, len(progression) - 1)
     result = str(progression[index])
-    print_progression[index] = ".."
-    question = " ".join(map(str, print_progression))
+    progression[index] = ".."
+    question = " ".join(map(str, progression))
 
     return question, result

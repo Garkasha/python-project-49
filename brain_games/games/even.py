@@ -11,7 +11,7 @@ def is_even(number):
 def make_task():
     question = randint(1, 99)
 
-    if is_even(question) is True:
+    if is_even(question):
         result = 'yes'
     else:
         result = 'no'
