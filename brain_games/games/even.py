@@ -8,7 +8,7 @@ def is_even(number):
     return number % 2 == 0
 
 
-def make_task():
+def generate_round_data():
     question = randint(1, 99)
 
     if is_even(question):

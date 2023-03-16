@@ -4,7 +4,7 @@ from random import randint
 DESCRIPTION = 'What number is missing in the progression?'
 
 
-def make_task():
+def generate_round_data():
     progression = []
     start_progression = randint(0, 50)
     step_progression = randint(1, 9)

@@ -12,11 +12,10 @@ def is_prime(number):
     for i in range(2, int(math.sqrt(number) + 1)):
         if (number % i == 0):
             return False
-    else:
-        return True
+    return True
 
 
-def make_task():
+def generate_round_data():
 
     question = randint(0, 99)
 

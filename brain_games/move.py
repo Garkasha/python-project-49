@@ -11,9 +11,8 @@ def launch(game):
     print(game.DESCRIPTION)
 
     for _ in range(ROUNDS):
-        question, result = game.make_task()
+        question, result = game.generate_round_data()
         print(f"Question: {question}")
-        print(result)
         answer = prompt.string('Your answer: ')
 
         if answer == result:

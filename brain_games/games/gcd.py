@@ -13,7 +13,7 @@ def find_hcf(a, b):
     return (a + b)
 
 
-def make_task():
+def generate_round_data():
     a = randint(1, 99)
     b = randint(1, 99)
     question = f'{a} {b}'

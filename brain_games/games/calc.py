@@ -6,7 +6,7 @@ from random import randint
 DESCRIPTION = 'What is the result of the expression?'
 
 
-def make_task():
+def generate_round_data():
 
     a = randint(1, 99)
     b = randint(1, 99)
